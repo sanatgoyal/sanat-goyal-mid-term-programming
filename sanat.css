@@ -1,0 +1,117 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    min-height: 100vh;
+  }
+  .container
+  {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background:white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow:0 35px 55px rgba(0,0,0,0.1);
+  }
+  .container .left_Side
+  {
+    position: relative;
+    background: white;
+    padding: 40px;
+  }
+  
+  .profileText .imgBx
+  {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .profileText .imgBx img 
+  {
+    position: absolute;
+    top: 0;
+    Left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .profileText h2
+  {
+  color: #fff;
+  font-size: 1.5em;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  Line-height: 1.4em;
+  }
+  .profileText h2 span
+  {
+    font-size: 0.8em;
+    font-weight: 300;
+  }
+  .contactInfo
+  {
+    padding-top: 40px;
+  }
+  .title
+  {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+  .container .right_Side
+  {
+    position: relative;
+    background:#fff;
+    padding: 40px;
+    width: 500px;
+  }
+  .about
+  {
+    margin-bottom: 50px;
+  }
+  .about:last-child
+  {
+    margin-bottom: 0;
+  }
+  .title2
+  {
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+  .about .box .text h4
+  {
+    text-transform: uppercase;
+    color: black;
+    font-size: 16px;
+  }
+  
+  .MyActivity, .MyWorkHistory, .MySpecialities {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .container ul li {
+    display: flex;
+    justify-content: space-between;
+  }
